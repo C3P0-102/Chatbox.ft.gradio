@@ -1,4 +1,4 @@
-# 1_foundations Agent - app.py 🚀
+Chatbox
 
 ## Welcome! 👋
 
@@ -7,10 +7,16 @@ This is `app.py`, a smart conversational agent, designed to chat with visitors o
 ## What Can It Do? 🌟
 
 - Chat with users in natural language using [OpenAI GPT-4o-mini](https://openai.com)
-- Pull details from Ed's LinkedIn resume (PDF) to provide accurate info
 - Record user contact info and questions for follow-up
 - Send instant notifications when someone shows interest (via Pushover)
 - Friendly web chat interface powered by Gradio
+
+<p align = "center">
+  <img 
+    src="https://github.com/user-attachments/assets/b0736af7-4065-4e6b-9705-954944e41437"
+    height = 450px,
+    width = 720px>
+</p>
 
 ## Getting Started 🛠️
 
@@ -31,7 +37,7 @@ PUSHOVERTOKEN=your_pushover_api_token_here
 PUSHOVERUSER=your_pushover_user_key_here
 ```
 
-2. Make sure the `linkedin.pdf` file (Ed's resume) is in the same folder as `app.py`.
+2. Make sure the `linkedin.pdf` file is in the same folder as `app.py`.
 
 ## How to Run 🏃‍♂️
 
@@ -41,26 +47,21 @@ Simply run the script with Python:
 python app.py
 ```
 
-A chat window will open in your browser where you can start talking with Ed! 🎉
+A chat window will open in your browser where you can start talking. 🎉
 
 ## Configuration Tips ⚙️
 
 - Environment variables are loaded automatically from `.env`.
 - Pushover notifications require valid tokens (see setup above).
-- If you want to update Ed's LinkedIn info, replace the `linkedin.pdf` file.
 
 ## Want to Help? 🤝
 
 Feel free to contribute! You can improve the chat features, add new tools, or enhance the user experience.
 
-## License 📄
 
-Add your license information here.
 
-## Need Help? 📧
 
-If you have questions or want to get in touch, contact Ed Donner at [your-email@example.com].
 
----
 
-Thanks for checking out the 1_foundations agent! Enjoy chatting with Ed! 😊
+
+
